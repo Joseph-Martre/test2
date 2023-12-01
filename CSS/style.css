@@ -1,0 +1,417 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family:'Matterhorn';src:url("https://static-mh.content.disney.io/matterhorn/assets/m4-7e766c2825c7.eot#") format("eot"),url("https://static-mh.content.disney.io/matterhorn/assets/m4-b366701d6945.woff") format("woff"),url("https://static-mh.content.disney.io/matterhorn/assets/m4-ac909dff444f.ttf") format("truetype"),url("https://static-mh.content.disney.io/matterhorn/assets/m4-3d636e3b4270.svg#Matterhorn") format("svg");font-weight:400;font-style:normal
+}
+
+body{
+    background-color: #f1f2f3;
+}
+
+header{
+    background-color: white;
+    display: flex;
+    justify-content: start;
+}
+
+.headerlogo a img{
+    scale: 50%;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: Matterhorn;
+    font-weight: bold;
+    font-size: medium;
+
+}
+nav ul li a:hover{
+    color: #0077da;
+}
+
+nav ul{
+    margin-top: 25px;
+}
+
+.section-asha{
+    background-image: url(../IMG/asha.PNG);
+    height: 578px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: end;
+    padding-bottom: 110px;
+}
+
+.asha-text{
+    display: flex;
+    color: white;
+    justify-content: center;
+    font-family: Matterhorn;
+}
+
+.asha-buttons{
+    display:flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.asha-buttons a button{
+    border-radius: 25px 25px 25px 25px;
+}
+
+.asha-buttons a button p{
+    font-family: Matterhorn;
+    font-weight: bold;
+    font-size: medium;
+    margin-top: 13px;
+    margin-bottom: 13px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.asha-buttons .leftbutton{
+    background-color: #f2bc4f;
+    border: 1px #f2bc4f solid;
+    margin-right: 10px;
+}
+
+.asha-buttons .leftbutton:hover{
+    background-color: #dfad49;
+    border: 1px #dfad49 solid;
+    cursor: pointer;
+}
+
+.asha-buttons .rightbutton{
+    background-color: rgba(128, 128, 128, 0);
+    border: 1px white solid;
+    margin-left: 10px;
+    color:white;
+}
+
+.asha-buttons .rightbutton:hover{
+    border: 1px black solid;
+    background-color: rgba(200, 200, 200, 0.5);
+    cursor: pointer;
+}
+
+.asha-buttons .rightbutton p{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.fourboxes{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.fourboxes .box{
+    width: 282px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 18px;
+    background-color: white;
+}
+
+.fourboxes .box .box-bottom-text{
+    padding: 30px;
+}
+
+.overtext{
+    font-family: Matterhorn;
+    font-weight: bold;
+    font-size: large;
+}
+
+.undertext1{
+    font-family: Matterhorn;
+    font-weight: bold;
+    font-size: small;
+    margin-top: 20px;
+}
+
+.undertext2{
+    font-family: Matterhorn;
+    font-weight: bold;
+    font-size: small;
+    margin-top: 110px;
+}
+
+.undertext3{
+    font-family: Matterhorn;
+    font-weight: bold;
+    font-size: small;
+    margin-top: 70px;
+}
+
+.undertext4{
+    font-family: Matterhorn;
+    font-weight: bold;
+    font-size: small;
+    margin-top: 85px;
+}
+
+.fourboxes .box .box-bottom-text .overtext{
+    margin-bottom: 15px;
+}
+
+.disney-plus-section{
+    background-color: #030c40;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    font-family: Matterhorn;
+}
+
+.disney-plus-section a button p{
+    color: white;
+}
+
+.disney-plus-section .threeboxes{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.disney-plus-section .threeboxes .boxthird{
+    margin-right: 25px;
+}
+
+.disney-plus-section a{
+    margin: 25px;
+}
+
+.disney-plus-section a button{
+    padding-top: 16px;
+    padding-left: 55px;
+    padding-bottom: 16px;
+    padding-right: 55px;
+    background-color: #006ef5;
+    border: 0px;
+    border-radius: 32px 32px 32px 32px;
+}
+
+.disney-plus-section a button:hover{
+background-color: #0065e2;
+cursor: pointer;
+}
+
+.disney-plus-section a button p{
+    font-weight: bold;
+}
+
+.section-boutique{
+    font-family: Matterhorn;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.stuffed-box{
+    margin-top: 25px;
+    background-image:url(../IMG/stuffed.PNG);
+    width: 1180px;
+    height: 397px;
+}
+
+.section-boutique .stuffed-box a{
+    display: flex;
+    flex-direction: row-reverse;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 100px;
+    margin-top: 270px;
+}
+
+.section-boutique .stuffed-box a:hover{
+    text-decoration: underline;
+}
+
+.section-boutique{
+    padding: 40px;
+}
+
+.twoboxes{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.twoboxes .boxhalf{
+    width: 584px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 18px;
+    background-color: white;
+}
+
+.section-parcs h2{
+    display: flex;
+    justify-content: center;
+    font-family: Matterhorn;
+}
+
+.twoboxes .boxhalf .box-bottom-text{
+    padding: 30px;
+}
+
+.undertext2-1{
+    font-family: Matterhorn;
+    font-weight: bold;
+    font-size: small;
+    margin-top: 20px;
+}
+
+.undertext2-2{
+    font-family: Matterhorn;
+    font-weight: bold;
+    font-size: small;
+    margin-top: 45px;
+}
+
+.twoboxes .boxhalf .box-bottom-text .overtext{
+    margin-bottom: 15px;
+}
+
+.section-films{
+    padding: 40px;
+}
+
+.section-films h2{
+    display: flex;
+    justify-content: center;
+    font-family: Matterhorn;
+    margin-bottom: 10px;
+}
+
+.fiveboxes{
+    display: flex;
+    justify-content: center;
+}
+
+.fiveboxes .boxfifth{
+    margin: 10px;
+}
+
+.fiveboxes .boxfifth img{
+    margin-bottom: 10px;
+}
+
+.fiveboxes .boxfifth a{
+    text-decoration: none;
+    color: black;
+    font-family: Matterhorn;
+}
+
+.fiveboxes .boxfifth a:hover{
+    color: #1786eb;
+}
+
+.section-films .fiveboxes .boxfifth{
+    width: 221px;
+}
+
+
+
+.section-spectacles{
+    font-family: Matterhorn;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 25px;
+}
+
+.lion-box{
+    margin-top: 25px;
+    background-image:url(../IMG/lion.PNG);
+    width: 1180px;
+    height: 336px;
+}
+
+.section-spectacles .lion-box a{
+    display: flex;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 215px;
+    margin-top: 210px;
+}
+
+.section-spectacles .lion-box a:hover{
+    text-decoration: underline;
+}
+
+.section-spectacles{
+    padding-bottom: 40px;
+}
+
+footer{
+    background-color: white;
+    font-family: Matterhorn;
+    color: black;
+    padding: 30px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.socialmediafooter{
+    display: flex;
+}
+
+.socialmediafooter p{
+    margin-right: 12px;
+}
+
+.socialmediafooter a{
+    margin: 12px;
+}
+
+.socialmediafooter a:hover{
+    opacity: 0.7;
+}
+
+.disneylogofooter img{
+    scale: 50%;
+    margin-top: 20px;
+}
+
+.copyright-text{
+    font-size: 11px;
+    padding-top: 30px;
+}
+
+.footerlinks ul{
+    text-align: center;
+}
+
+.footerlinks ul li{
+    display: inline;
+    margin: 10px;
+}
+
+.footerlinks ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 11px;
+}
+
+.footerlinks ul li a:hover{
+    color: #1786eb;
+}
